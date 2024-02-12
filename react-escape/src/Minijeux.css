@@ -1,0 +1,32 @@
+.minijeux {
+  margin-left: 200px;
+}
+
+.minijeux .jeux {
+  display: flex;
+  margin-top: 30px;
+  background-image: url(./Assets/fond.svg);
+  margin-left: 80px;
+  margin-right: 100px;
+  color: var(--color-font);
+  font-size: 32px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .minijeux .navbar {
+    margin-top: -0px;
+  }
+
+  .minijeux {
+    margin: 5px;
+  }
+
+  .minijeux .jeux {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 75px;
+  }
+}

@@ -1,0 +1,96 @@
+.escape_detail {
+  margin-left: 200px;
+  color: var(--color-font);
+}
+
+.escape_detail .info_escape {
+  color: var(--colors-secondaire);
+}
+
+.detail {
+  background-image: url(./Assets/fond.svg);
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 100px;
+  padding: 40px;
+
+  text-align: center;
+  font-size: 28px;
+}
+
+.detail .info_escape {
+  text-align: left;
+}
+
+.detail img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.detail p {
+  text-align: left;
+  margin: 20px;
+  justify-content: center;
+}
+.detail h3 {
+  color: var(--colors-secondaire);
+  text-align: left;
+  margin: 20px;
+  font-size: 32px;
+}
+
+.titre h4 {
+  text-align: left;
+  margin: 30px;
+  font-size: 28px;
+}
+
+.escape_detail .titre {
+  height: 5px;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 100px;
+  background: var(--colors-secondaire);
+  position: relative;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+.escape_detail .titre h3 {
+  background-color: #22000e;
+  top: -25px;
+  font-size: 32px;
+  padding: 8px 20px 8px 20px;
+  display: inline;
+  position: absolute;
+}
+
+.reservation {
+  background-color: var(--colors-secondaire);
+  float: right;
+  align-self: bottom;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .escape_detail {
+    margin: 5px;
+  }
+
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+}

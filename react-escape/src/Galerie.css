@@ -1,0 +1,109 @@
+.galerie {
+  margin-left: 200px;
+  color: var(--color-font);
+}
+
+.galerie .titre {
+  height: 5px;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 100px;
+  background: var(--colors-secondaire);
+  position: relative;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.galerie .titre h3 {
+  background-color: #22000e;
+  top: -25px;
+  font-size: 32px;
+  padding: 8px 20px 8px 20px;
+  display: inline;
+  position: absolute;
+}
+
+.escape-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}
+
+.image {
+  margin: 20px;
+}
+
+.avis {
+  background-image: url(./Assets/fond.svg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+.card-avis {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.text_card {
+  background-color: white;
+  color: black;
+  margin: 10px 0px;
+  padding: 10px;
+  height: 150px;
+}
+
+.galerie form {
+  background-image: url(./Assets/fond.svg);
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galerie form h1 {
+  margin: 10px;
+  padding: 20px;
+}
+
+.galerie input {
+  margin: 20px;
+  padding: 10px;
+}
+.galerie select{
+  margin: 20px;
+  padding: 10px;
+}
+
+.galerie .avis-text {
+  margin: 20px;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.galerie form button {
+  /* Couleurs et styles de bouton */
+  background-color: #22000e;
+  color: #fff;
+  font-size: 12px;
+  margin: 20px;
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .galerie {
+    margin: 5px;
+  }
+}
